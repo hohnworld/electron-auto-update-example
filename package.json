@@ -1,0 +1,25 @@
+{
+  "name": "electron-auto-update-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+"deploy": "electron-builder build --win --publish always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/hohnworld/electron-auto-update-example.git"
+  },
+  "devDependencies": {
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  }
+}
